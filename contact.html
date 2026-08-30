@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | LPDI</title>
+<meta name="description" content="Get in touch with the Literacy Promotion and Development Initiative in Kaduna, Nigeria.">
+<link rel="icon" href="assets/logo.jpeg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+
+<!-- Bootstrap (vendored locally) -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- LPDI styles -->
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="lpdi-nav">
+    <div class="container-lpdi nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpeg" alt="LPDI logo">
+        <span class="brand-text">LPDI<small>Literacy Promotion &amp; Dev. Initiative</small></span>
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Objectives</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="desktop-only"><a href="contact.html" class="nav-cta">Partner With Us</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+<header class="page-header">
+  <div class="container-lpdi">
+    <p class="crumb"><a href="index.html">Home</a><span class="sep">/</span>Contact</p>
+    <span class="kicker">Get in touch</span>
+    <h1>Talk to LPDI.</h1>
+    <p>Whether you're a school, a donor, a government office or an NGO &mdash; we would like to hear from you.</p>
+  </div>
+</header>
+
+<section class="bg-paper">
+  <div class="container-lpdi">
+    <div class="row g-5">
+
+      <!-- CONTACT DETAILS -->
+      <div class="col-lg-5 reveal">
+        <span class="kicker">Reach us directly</span>
+        <h2 class="section-title" style="margin-bottom:1.5rem;">Head office &amp; contact</h2>
+
+        <div class="contact-card">
+          <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-7.2 8-13a8 8 0 1 0-16 0c0 5.8 8 13 8 13z"/><circle cx="12" cy="9" r="3"/></svg>
+          <div>
+            <h4>Head Office</h4>
+            <p>3rd Floor, NNIL Building,<br>Muhammadu Buahri Way,<br>Kaduna, Kaduna State, Nigeria.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg>
+          <div>
+            <h4>Telephone</h4>
+            <a href="tel:+2349033981117">+234 903 3981 117</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:lpdii1117@gmail.com">lpdii1117@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <svg class="c-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div>
+            <h4>Office Hours</h4>
+            <p>Monday &ndash; Friday, 9:00 AM &ndash; 4:00 PM (WAT)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="col-lg-7 reveal reveal-delay-1">
+        <span class="kicker">Send a message</span>
+        <h2 class="section-title" style="margin-bottom:1.5rem;">We read every message.</h2>
+
+        <form class="form-lpdi" action="mailto:lpdii1117@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="fullname">Full name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option>Partnership &amp; collaboration</option>
+            <option>Donation &amp; sponsorship</option>
+            <option>Volunteer / join our advocacy</option>
+            <option>Media enquiry</option>
+            <option>Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us how we can work together..." required></textarea>
+          <button type="submit" class="btn-lpdi btn-primary-lpdi">
+            Send message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="bg-green-soft" style="padding-top:0;">
+  <div class="container-lpdi reveal">
+    <iframe class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Kaduna,+Kaduna+State,+Nigeria&output=embed">
+    </iframe>
+  </div>
+</section>
+<footer class="lpdi-footer">
+    <div class="container-lpdi">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="foot-brand">
+            <img src="assets/logo.jpeg" alt="LPDI logo">
+            <strong style="color:#fff;font-family:var(--display);">LPDI</strong>
+          </div>
+          <p>Literacy Promotion and Development Initiative advances girl-child education, disability inclusion, Almajiri system reform and community development across Northern Nigeria.</p>
+          <div class="social-row">
+            <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Twitter / X"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About LPDI</a></li>
+            <li><a href="programs.html">Aim &amp; Objectives</a></li>
+            <li><a href="team.html">Board &amp; Officers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6">
+          <h5>Focus Areas</h5>
+          <ul>
+            <li><a href="programs.html#objectives">Girl-Child Education</a></li>
+            <li><a href="programs.html#objectives">Disability Empowerment</a></li>
+            <li><a href="programs.html#objectives">Almajiri Reform</a></li>
+            <li><a href="programs.html#objectives">Digital Literacy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5>Head Office</h5>
+          <p style="margin-bottom:.6rem;">3rd Floor, NNIL Building,<br>Muhammadu Buahri Way,<br>Kaduna, Kaduna State, Nigeria.</p>
+          <p style="margin-bottom:.2rem;">+234 903 3981 117</p>
+          <p>lpdii1117@gmail.com</p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>&copy; <span id="year"></span> Literacy Promotion and Development Initiative (LPDI). All rights reserved.</span>
+        <span>Registered Non-Profit &middot; Kaduna, Nigeria</span>
+      </div>
+    </div>
+    <div class="pattern-strip"></div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
